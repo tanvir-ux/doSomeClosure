@@ -1,0 +1,93 @@
+*{
+	padding: 1%;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+}
+
+body{
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 12px;
+	background: white;
+}
+
+
+h1{
+	font-size: 1.5em;
+}
+
+h4{
+	font-size: .8em;
+}
+
+p{
+	font-size: 1em;
+}
+
+a{
+	font-size: 1.7em;
+}
+
+
+
+
+
+.btn{
+	width: 200px;
+	height: 80px;
+	border: none;
+	border-radius: 2px;
+
+}
+
+div.container{
+	width: 100%;
+	position: relative;
+}
+
+div.row{
+	width: 100%;
+	position: relative;
+	float: left;
+}
+
+div.row:after{
+	content: "";
+	float: none;
+}
+
+.col-md-12{
+	width: 100%;
+
+}
+
+.col-md-6{
+	width: 50%;
+}
+
+.col-md-3{
+	width: 25%;
+}
+
+.col-md-1{
+
+	width: 8.3333%;
+}
+
+.clear-fix{
+	float: none;
+}
+
+.clear-fix:before{
+	content: "",
+	float: none;
+}
+
+.clear-fix:after{
+	content: "",
+	float: none;
+}
+
+div.nav > ul > li{
+	display: inline;
+}
